@@ -7,6 +7,7 @@ function Slides({slides}) {
 
     function handleRestart() {
         setCount(0);
+        document.getElementById("button-restart").disabled = true;
         document.getElementById("prev-btn").disabled = true;
         document.getElementById("next-btn").disabled = false;
     }
