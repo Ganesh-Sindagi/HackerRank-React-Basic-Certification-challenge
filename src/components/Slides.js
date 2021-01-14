@@ -25,7 +25,7 @@ function Slides({slides}) {
     function handleNext() {
         document.getElementById("res-btn").disabled = false;
         document.getElementById("prev-btn").disabled = false; 
-        if(count===3) {
+        if(count===4) {
             document.getElementById("next-btn").disabled = true;
             setCount(4) 
         } else {
