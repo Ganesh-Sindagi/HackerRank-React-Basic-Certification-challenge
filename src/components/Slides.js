@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
 function Slides({slides}) {
-    console.log(slides);
-
     const [count, setCount] = useState(0);
 
     function handleRestart() {
